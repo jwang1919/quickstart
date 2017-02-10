@@ -2,9 +2,9 @@ import {Component} from '@angular/core';
 @Component({
   moduleId: module.id,
   selector: 'my-app',
-  templateUrl: './app.component.html',
+  templateUrl: '../../templates/app.component.html',
   styleUrls: [
-    './app.component.css'
+    '../../styles/app.component.css'
   ]
 })
 

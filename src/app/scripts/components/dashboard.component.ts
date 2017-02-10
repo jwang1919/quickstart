@@ -1,15 +1,15 @@
 import {Component, OnInit} from '@angular/core';
-import {Hero} from './Hero';
-import {HeroService} from './hero.service';
+import {Hero} from '../classes/Hero';
+import {HeroService} from '../services/hero.service';
 
 const TOP_HERO_QTY = 4;
 
 @Component({
   moduleId: module.id,
   selector: 'my-dashboard',
-  templateUrl: './dashboard.component.html',
+  templateUrl: '../../templates/dashboard.component.html',
   styleUrls: [
-    './dashboard.component.css'
+    '../../styles/dashboard.component.css'
   ],
   providers: [
     HeroService
